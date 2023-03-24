@@ -110,3 +110,11 @@ section,summary,time,mark,audio,video {
   font-weight: 400;
   line-height: 150%;
 }
+
+#connect {
+  width: fit-content;
+  color: #7f8cff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
