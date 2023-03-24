@@ -1,0 +1,139 @@
+/* stylelint-disable */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre, 
+a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small, 
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form, 
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas, 
+details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby, 
+section,summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* stylelint-enable */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 30rem;
+  background-color: rgb(229, 229, 229);
+  background-image: url(./images/header-background-mobile.svg);
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home-header {
+  display: flex;
+  align-items: flex-end;
+}
+
+#greeting,
+#about-me,
+#social-media,
+#toolbar-container {
+  width: 100%;
+}
+
+#toolbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0 1.5rem;
+}
+
+.logo-placeholder {
+  width: 4.75rem;
+  color: #6070ff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.burger {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 0;
+  border: none;
+  background: url(./images/Icon\ -\ Menu.png) no-repeat;
+  background-origin: content-box;
+  cursor: pointer;
+}
+
+.burger:hover {
+  border: 0.1rem solid #7f8cff;
+}
+
+.burger:active {
+  background-color: #7f8cff;
+  border: 0.1rem solid #7f8cff;
+}
+
+#home-main {
+  height: calc(100vh - 6.5rem);
+  min-height: 30rem;
+  background-image: url(./images/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  background-origin: content-box;
+}
+
+#headline,
+#social-media {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.headline-item {
+  margin: 0.75rem 1.5rem 0 1.5rem;
+}
+
+#greeting {
+  display: flex;
+  align-items: flex-end;
+  height: 9.375rem;
+  margin-top: 6.375rem;
+  color: #172b4d;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+#about-me {
+  color: #344563;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#connect {
+  width: 100%;
+  color: #7f8cff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25rem;
+  width: 10.65rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
