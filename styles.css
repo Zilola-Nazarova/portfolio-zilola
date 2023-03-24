@@ -68,10 +68,22 @@ section,summary,time,mark,audio,video {
 }
 
 .burger:hover {
-  border: 0.1rem solid #7F8Cff;
+  border: 0.1rem solid #7f8cff;
 }
 
 .burger:active {
-  background-color: #7F8Cff;
-  border: 0.1rem solid #7F8Cff;
+  background-color: #7f8cff;
+  border: 0.1rem solid #7f8cff;
+}
+
+#home-main {
+  height: calc(100vh - 6.5rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-image: url(./images/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  background-origin: content-box;
 }
