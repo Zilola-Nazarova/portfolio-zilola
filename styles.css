@@ -14,7 +14,7 @@ section,summary,time,mark,audio,video {
 }
 /* stylelint-enable */
 
-#home {
+body {
   display: flex;
   flex-direction: column;
   height: 100vh;
