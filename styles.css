@@ -56,3 +56,22 @@ section,summary,time,mark,audio,video {
   line-height: 1.25rem; 
 }
 
+.burger {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 0;
+  border: none; 
+  background: url(./images/Icon\ -\ Menu.png) no-repeat;
+  background-origin: content-box;
+  cursor: pointer;
+}
+
+.burger:hover {
+  border: 0.1rem solid #7F8CFF;
+}
+
+.burger:active {
+  background-color: #7F8CFF;
+  border: 0.1rem solid #7F8CFF;
+}
