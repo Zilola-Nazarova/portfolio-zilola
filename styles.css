@@ -118,3 +118,10 @@ section,summary,time,mark,audio,video {
   font-weight: 500;
 }
 
+#icons {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25rem;
+  width: 10.65rem;
+}
+
