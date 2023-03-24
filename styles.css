@@ -23,3 +23,10 @@ section,summary,time,mark,audio,video {
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
+
+#home-header {
+  display: flex;
+  align-items: flex-end;
+  height: 5.75rem;
+  margin-bottom: 0.75rem;
+}
