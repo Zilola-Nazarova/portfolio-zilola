@@ -23,7 +23,7 @@
 - [📝 License](#license)
 
 
-# 📖 "Hello Microverse!" project <a name="about-project"></a>
+# 📖 "portfolio-zilola" project <a name="about-project"></a>
 
 "portfolio-zilola" project is a repository consisting of two simple files:
 
@@ -74,7 +74,7 @@ To get a local copy up and running, follow these steps.
 Login to your GitHub account. Clone this repository to your desired folder:
 
 > cd my-folder
-> git clone git@github.com:Zilola-Nazarova/portfolio-zilola.git
+> git clone `git@github.com:Zilola-Nazarova/portfolio-zilola.git`
 
 ### Prerequisites
 
@@ -134,6 +134,7 @@ You can deploy this project adding new lines of code to index.html and styles.cs
 Future features will be implemented in a new branch and will include new sections of this website.
 
 You can see the details here:
+
 https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/2_mobile.md
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,7 +162,7 @@ I would also like to thank previous project reviewers for their advice. Thanks t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 - **Why is it 12.x node-version on the line 16 of the linters.yml file?**
 
