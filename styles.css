@@ -1,4 +1,4 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6, p, blockquote, pre, 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre, 
 a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small, 
 strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form, 
 label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas, 
@@ -29,4 +29,8 @@ section,summary,time,mark,audio,video {
   align-items: flex-end;
   height: 5.75rem;
   margin-bottom: 0.75rem;
+}
+
+#greeting,#about-me,#social-media,#toolbar-container {
+  width: 100%;
 }
