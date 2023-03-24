@@ -84,14 +84,18 @@ a {
 #home-main {
   height: calc(100vh - 6.5rem);
   min-height: 30rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
   background-image: url(./images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;
   background-origin: content-box;
+}
+
+#headline,
+#social-media {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .headline-item {
@@ -110,7 +114,6 @@ a {
 }
 
 #about-me {
-  min-height: 9.125rem;
   color: #344563;
   font-size: 1rem;
   font-weight: 400;
@@ -118,7 +121,7 @@ a {
 }
 
 #connect {
-  width: fit-content;
+  width: 100%;
   color: #7f8cff;
   font-size: 1rem;
   font-weight: 500;
