@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  min-height: 30rem;
   background-color: rgb(229, 229, 229);
   background-image: url(./images/header-background-mobile.svg);
   background-size: cover;
@@ -78,6 +79,7 @@ body {
 
 #home-main {
   height: calc(100vh - 6.5rem);
+  min-height: 30rem;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
