@@ -12,7 +12,7 @@ section,summary,time,mark,audio,video {
   font-size: 100%;
   vertical-align: baseline;
 }
-/* stylelint-disable */
+/* stylelint-enable */
 
 #home {
   display: flex;
@@ -38,4 +38,12 @@ section,summary,time,mark,audio,video {
 #social-media,
 #toolbar-container {
   width: 100%;
+}
+
+#toolbar-container { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding: 0 1.5rem;
 }
