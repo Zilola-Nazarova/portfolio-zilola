@@ -34,8 +34,6 @@ a {
 #home-header {
   display: flex;
   align-items: flex-end;
-  height: 5.75rem;
-  margin-bottom: 0.75rem;
 }
 
 #greeting,
