@@ -40,7 +40,7 @@ section,summary,time,mark,audio,video {
   width: 100%;
 }
 
-#toolbar-container { 
+#toolbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,10 +50,10 @@ section,summary,time,mark,audio,video {
 
 .logo-placeholder {
   width: 4.75rem;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 1.125rem;
-  font-weight: 700; 
-  line-height: 1.25rem; 
+  font-weight: 700;
+  line-height: 1.25rem;
 }
 
 .burger {
@@ -61,17 +61,17 @@ section,summary,time,mark,audio,video {
   width: 2.5rem;
   padding: 0.5rem;
   border-radius: 0;
-  border: none; 
+  border: none;
   background: url(./images/Icon\ -\ Menu.png) no-repeat;
   background-origin: content-box;
   cursor: pointer;
 }
 
 .burger:hover {
-  border: 0.1rem solid #7F8CFF;
+  border: 0.1rem solid #7F8Cff;
 }
 
 .burger:active {
-  background-color: #7F8CFF;
-  border: 0.1rem solid #7F8CFF;
+  background-color: #7F8Cff;
+  border: 0.1rem solid #7F8Cff;
 }
