@@ -47,3 +47,12 @@ section,summary,time,mark,audio,video {
   height: 3rem;
   padding: 0 1.5rem;
 }
+
+.logo-placeholder {
+  width: 4.75rem;
+  color: #6070FF;
+  font-size: 1.125rem;
+  font-weight: 700; 
+  line-height: 1.25rem; 
+}
+
