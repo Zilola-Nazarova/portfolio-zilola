@@ -19,3 +19,14 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(229,229,229);
+  background-image: url(./images/header-background-mobile.svg);
+  background-size: cover;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
