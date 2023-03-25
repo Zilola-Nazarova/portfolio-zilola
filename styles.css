@@ -151,6 +151,7 @@ ul {
 .work-card {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   height: calc(100vh - 88px);
   background-color: white;
   border: 1px solid #DFE1E6; 
