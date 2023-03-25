@@ -79,7 +79,7 @@ a {
 }
 
 #home {
-  height: calc(100vh - 6.5rem);
+  height: calc(100vh - 3rem);
   min-height: 30rem;
   background-color: rgb(229, 229, 229);
   background-image: url(./images/header-shapes\ mobile@2x.svg), url(./images/header-background-mobile.svg);
