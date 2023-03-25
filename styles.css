@@ -144,8 +144,8 @@ ul {
   align-content: space-between;
   grid-template-rows: auto auto auto auto;
   background-color: #E5E5E5;
-  padding: 44px 1.5rem;
-  gap: 88px;
+  padding: 2.75rem 1.5rem;
+  gap: 5.5rem;
 }
 
 .work-card {
