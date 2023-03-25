@@ -23,11 +23,6 @@ body {
   flex-direction: column;
   height: 100vh;
   min-height: 30rem;
-  background-color: rgb(229, 229, 229);
-  background-image: url(./images/header-background-mobile.svg);
-  background-size: cover;
-  background-position: bottom left;
-  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 
@@ -83,14 +78,15 @@ a {
   border: 0.1rem solid #7f8cff;
 }
 
-#home-main {
+#home {
   height: calc(100vh - 6.5rem);
   min-height: 30rem;
-  background-image: url(./images/header-shapes\ mobile@2x.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center top;
-  background-origin: content-box;
+  background-color: rgb(229, 229, 229);
+  background-image: url(./images/header-shapes\ mobile@2x.svg), url(./images/header-background-mobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  background-position: center top, bottom left;
+  background-origin: content-box, content-box;
 }
 
 #headline,
