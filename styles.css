@@ -14,6 +14,10 @@ section,summary,time,mark,audio,video {
 }
 /* stylelint-enable */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
